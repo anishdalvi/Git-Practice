@@ -1,7 +1,9 @@
 This is file 1.
+
+Hello world.This is change 3
+
 Hello world
-<<<<<<< HEAD
+
 Changed this from the Log at the same checkpoint
-=======
+
 This changes have been made after using Git Log
->>>>>>> branch-3
