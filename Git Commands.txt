@@ -2,6 +2,7 @@ git config --global init.defaultBranch branch_name    *sets the default branch a
 
 git config --global user.name name_here
 git config --global user.email email_here
+git config --global core.autocrlf false 	*LF will be replaced by CRLF the next time Git touches it (error)
 
 
 
