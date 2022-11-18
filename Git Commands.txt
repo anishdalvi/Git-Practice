@@ -12,6 +12,12 @@ git add . 				*add files to staging area*
 git commit -m "message" 		*commit with message to local repository*
 git branch branch_name  		*creates new branch*
 git checkout branch_name 		*switch to branch*
+
+git remote -v				*shows remote origin if added previously
+git remote get-url origin		*shows remote origin if added previously
+git config --get remote.origin.url	*shows remote origin if added previously
+git remote show origin			*shows full details of origin
+
 git remote add origin http-url-here 	*add remote repository http url*
 git push origin branch_name 		*pushing files to remote repository*
 git branch				*list branches*
